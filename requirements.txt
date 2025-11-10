@@ -5,3 +5,5 @@ matplotlib
 Pillow
 scikit-learn
 tqdm
+pandas
+seaborn

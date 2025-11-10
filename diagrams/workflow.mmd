@@ -1,0 +1,13 @@
+flowchart LR
+    A[Input Wafer Images]
+    B[Vision Transformer ViT]
+    C[Preprocessing & Augmentation]
+    D[VIX-VAR Select Synth Score]
+    M((Merge))
+    E[Fusion & Decision]
+    
+    A --> B
+    C --> D
+    B --> M
+    D --> M
+    M --> E
